@@ -11,25 +11,31 @@
 <body>
     <!-- Sidehoved med navigationsmenu -->
     <header>
+
+        <!-- Nav tag fortæller browseren, at det er et navigationselement -->
         <nav>
-            <!-- Nav tag fortæller browseren, at det er et navigationselement -->
+            <!-- Unordered list = ikke nummereret liste -->
             <ul>
-                <!-- Unordered list = ikke nummereret liste -->
-                <li><a href="#"></a>Forside</li>
                 <!-- Li = list item de enkelte listelementer. A tag (anchor) = et link der kan klikkes på -->
+                <li><a href="#"></a>Forside</li>
                 <li><a href="#"></a>Om os</li>
                 <li><a href="#"></a>Kontakt</li>
             </ul>
         </nav>
     </header>
+
     <!-- Main tag med sidens primære indhold -->
     <main>
+        <!-- Article skal indeholde en overskrift, brødtekst og et billede -->
         <article>
-            <!-- Article skal indeholde en overskrift, brødtekst og et billede, som relaterer til hinanden -->
-            <h1>Overskrift</h1> <!-- H1 må som udgangspunkt kun bruges en gang på hver side -->
-            <p>Lorem ipsum <mark>Markering af tekst element</mark>
+            <!-- H1 (første prioriteret heading) må som udgangspunkt kun bruges en gang på hver side -->
+            <h1>Overskrift</h1> 
+
+            <!-- Paragraph, et tekst afsnit / Mark markerer en tekst -->
+            <p>Lorem ipsum <mark>Markering af tekst</mark>
                 sit amet consectetur adipisicing elit. Velit, magni voluptatem consectetur officia
                 molestias assumenda!</p>
+
             <!-- Element til at indsætte billeder - src= "stien til kilden" -->
             <img src="https://picsum.photos/200" alt="En tekst der beskriver hvad der er på billedet">
         </article>
@@ -41,18 +47,19 @@
 
         <!-- En status bar fra 0 til max. value= aktuelle værdi -->
         <progress value="2" max="10"></progress>
-
     </section>
 
     <!-- Sidefod med mindre vigtige oplysninger til brugeren/detaljer brugeren først skal se når de direkte leder efter dem -->
     <footer>
+
+        <!-- div = en blok til strukturel indeling og indholdsstyrelse -->
         <div class="adress-container">
-            <!-- div = en blok til strukturel indeling og indholdsstyrelse -->
 
-            <h2>Her bor jeg</h2> <!-- Headdings 1-6 overskrifter af forskellig prioritering (H1 højest) -->
+            <!-- Headdings 1-6 overskrifter af forskellig prioritering (H1 højest) -->
+            <h2>Her bor jeg</h2> 
 
+            <!-- Address til kontaktinfo (adresse, e-mail, forfattere osv.) -->
             <address>
-                <!-- Address til kontaktinfo (adresse, e-mail, forfattere osv.) -->
                 Kronprinsessegade 64<br>
                 1306 København K
             </address>
@@ -60,7 +67,6 @@
 
         <!-- Et element til det med småt. Fx. rettigheder -->
         <small>Copyright</small>
-
     </footer>
 </body>
 
